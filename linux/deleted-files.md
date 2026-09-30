@@ -8,7 +8,7 @@
 
 ```bash
 $ ls -lh /tmp/huge.log
--rw-r--r-- 1 joss joss 2.0G /tmp/huge.log
+-rw-r--r-- 1 user user 2.0G /tmp/huge.log
 
 $ rm /tmp/huge.log
 $ df -h /tmp

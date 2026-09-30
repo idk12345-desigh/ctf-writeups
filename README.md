@@ -21,6 +21,7 @@ picoCTF 解题记录 + 一些 Linux 底层概念的整理。
 | 标题 | 讲什么 |
 |---|---|
 | [为什么 `rm` 掉的文件还占着磁盘](linux/deleted-files.md) | `(deleted)` 标记、`lsof` 反查、为什么 `df` 和 `du` 对不上 |
+| [Linux 入侵排查：三条线，一个 `/proc`](linux/incident-response.md) | 挖矿 / 后门 / 自我删除的三种特征、可疑度判据、`kill` 与信号 |
 
 ## ⚠️ 关于 flag
 
