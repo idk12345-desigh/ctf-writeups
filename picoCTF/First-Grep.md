@@ -38,18 +38,18 @@ picoCTF{grep_is_good_to_find_things_********}
 一开始敲：
 
 ```bash
-ls C:\Users\Admin\Downloads\file
+ls C:\Users\<用户名>\Downloads\file
 ```
 
 报错 `No such file or directory`，而且报错信息里的路径变成了
-`C:UsersAdminDownloadsfile` —— **所有反斜杠都不见了**。
+`C:Users<用户名>Downloadsfile` —— **所有反斜杠都不见了**。
 
 **原因**：Linux 里 `\` 是**转义符**，会被 shell 吃掉。
 
 **正确写法：**
 
 ```bash
-ls /mnt/c/Users/Admin/Downloads/file
+ls /mnt/c/Users/<用户名>/Downloads/file
 ```
 
 - 开头用 `/mnt/c/`，不是 `C:\`
