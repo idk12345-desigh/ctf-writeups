@@ -1,5 +1,7 @@
 # Linux 入侵排查：三条线，一个 `/proc`
 
+**Linux Incident Response: Three Lines of Investigation, One `/proc`**
+
 > 一台机器被入侵了，你从哪开始查？
 
 ## 起因

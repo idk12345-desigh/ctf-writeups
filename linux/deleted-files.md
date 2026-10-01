@@ -1,5 +1,7 @@
 # 为什么 `rm` 掉的文件还占着磁盘？
 
+**Why Deleted Files Still Take Up Disk Space**
+
 > 一次 `df` 和 `du` 对不上的排查记录
 
 ## 起因

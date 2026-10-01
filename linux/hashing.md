@@ -1,5 +1,7 @@
 # 为什么 MD5 不能用来存密码？
 
+**Why MD5 Shouldn't Be Used for Storing Passwords**
+
 > 从 `md5sum` 这条命令说起 —— 一个"算得太快"引发的灾难
 
 ## 起因

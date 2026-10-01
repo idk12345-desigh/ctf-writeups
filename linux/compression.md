@@ -1,5 +1,7 @@
 # 为什么 18K 的文件能压到 101 字节，48 字节的却压不动？
 
+**Why an 18K File Compresses to 101 Bytes (and a 48-Byte File Doesn't)**
+
 > 一次 `gzip` 对比实验，和它暴露出的一个常见误解
 
 ## 起因

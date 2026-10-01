@@ -1,5 +1,7 @@
 # 解压一个压缩包，文件为什么会跑到别的目录？
 
+**Why Extracting an Archive Can Write Files Outside the Target Directory**
+
 > 亲手做一次路径穿越（tar traversal / zip slip）
 
 ## 起因
