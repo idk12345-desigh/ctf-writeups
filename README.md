@@ -23,6 +23,8 @@ picoCTF 解题记录 + 一些 Linux 底层概念的整理。
 | [为什么 `rm` 掉的文件还占着磁盘](linux/deleted-files.md) | `(deleted)` 标记、`lsof` 反查、为什么 `df` 和 `du` 对不上 |
 | [Linux 入侵排查：三条线，一个 `/proc`](linux/incident-response.md) | 挖矿 / 后门 / 自我删除的三种特征、可疑度判据、`kill` 与信号 |
 | [为什么 MD5 不能用来存密码](linux/hashing.md) | 雪崩效应、彩虹表、为什么"快"是致命的、盐（salt）能防什么不能防什么 |
+| [为什么 18K 的文件能压到 101 字节](linux/compression.md) | `gzip` / `tar` 的三件事、压缩效果取决于重复度、`-t` 为什么安全 |
+| [解压一个压缩包，文件为什么会跑到别的目录](linux/path-traversal.md) | 路径穿越（tar traversal / zip slip）、为什么 `tar` 不拦、解压前先看 |
 
 ## ⚠️ 关于 flag
 
