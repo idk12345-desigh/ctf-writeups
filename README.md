@@ -22,6 +22,7 @@ picoCTF 解题记录 + 一些 Linux 底层概念的整理。
 |---|---|
 | [为什么 `rm` 掉的文件还占着磁盘](linux/deleted-files.md) | `(deleted)` 标记、`lsof` 反查、为什么 `df` 和 `du` 对不上 |
 | [Linux 入侵排查：三条线，一个 `/proc`](linux/incident-response.md) | 挖矿 / 后门 / 自我删除的三种特征、可疑度判据、`kill` 与信号 |
+| [为什么 MD5 不能用来存密码](linux/hashing.md) | 雪崩效应、彩虹表、为什么"快"是致命的、盐（salt）能防什么不能防什么 |
 
 ## ⚠️ 关于 flag
 
